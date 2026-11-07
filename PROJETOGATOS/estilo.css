@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f4f8;
+  color: #1d2433;
+  text-align: center;
+}
+ 
+header {
+  background: beige;
+  padding: 10px 0;
+  margin-bottom: 32px;
+}
+ 
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.logocats {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+}
+ 
+.menu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+ 
+.menu a {
+  color: rgb(204, 139, 20);
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+ 
+.menu a:hover {
+  color: #ffcb05;
+}
+ 
+main {
+  padding: 0 16px 32px;
+}
+ 
+ 
+#mensagem {
+  margin: 12px;
+  color: #6b7590;
+}
+ 
+#btn-buscar,
+select {
+  padding: 12px 18px;
+  margin: 4px;
+  border: none;
+  border-radius: 8px;
+  background: #fcd040;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+ 
+#btn-buscar:hover,
+select:hover {
+  background: #f5c42a;
+}
+ 
+#gato-img {
+  width: 600px;
+  height: 600px;
+  border-radius: 8px;
+  margin-top: auto;
+}
+ 
+#lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+ 
+#lista button {
+  padding: 6px 12px;
+  border: 1px solid #ccd3e0;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+ 
+#lista button:hover {
+  background: #fff7d6;
+  border-color: #fcd040;
+}
